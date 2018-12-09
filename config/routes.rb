@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
 
+  #The line below create paths for ALL possible actions for perfect entity:
+  # NEW, CREATE, UDPATE, DELETE, SHOW, EDIT, DESTROY and INDEX
   resources :articles
 end
