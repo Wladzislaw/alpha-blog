@@ -20,7 +20,7 @@ $navbar-default-bg: black;
 
 .center {
   text-align: center;
-  color: yellow;
+  color: #yellow;
 }
 
 .jumbotron {
@@ -50,6 +50,18 @@ footer{
 }
 footer small {
   float: left;
+}
+
+.article-actions
+{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description
+{
+  margin-top: 0;
+  color: red;
 }
 
 footer ul {
